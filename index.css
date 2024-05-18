@@ -1,0 +1,72 @@
+body {
+    background-color: #d0f0c0;
+}
+
+button {
+    display: block;
+    margin: 70px auto;
+    width: 500px;
+    height: 125px;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 4px 9px 0 rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #26732a;
+}
+
+#nextPageButton {
+    display: none;
+}
+
+.card:hover {
+    background-color: #bff2c1;
+    transform: scale(1.3);
+}
+
+.card {
+    display: inline-block;
+    margin: 100px 40px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    background-color: white;
+}
+
+.card img {
+    display: block;
+    margin: 35px auto;
+    border-radius: 90px;
+    box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease-in-out;
+    
+}
+
+.card:hover img{
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
+h1:hover,
+h3:hover {
+    background-color: white;
+}
+
+h3{
+    font-family: "Courier New", monospace;
+    font-size: 15px;
+}
+
+
+.nameText {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
